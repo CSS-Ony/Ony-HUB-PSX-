@@ -7,7 +7,7 @@ local HumanoidSectionTab4=demo4:CreateSection()
 local PlSettings=HumanoidSectionTab4:CreateSubSection('Player Settings');
 local Rewards=HumanoidSectionTab4:CreateSubSection('Player Rewards');
 
-local Trades=UI:CreateTab(5181994100,'TradeScam');
+local Trades=UI:CreateTab(5181994100,'TradeScam1');
 local TradeSC=Trades:CreateSection()
 local TradeScam=TradeSC:CreateSubSection('TradeScam');
 
