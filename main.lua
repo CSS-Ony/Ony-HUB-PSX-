@@ -57,7 +57,3 @@ _G.Enable = {
     ["Auto Farm Heart"] = false,
     ["Auto Claim Mail"] = false
 }
-local Network = Library.Network
-local World = Library.Save.Get().World
-local Directory = Library.Directory
-local NP
