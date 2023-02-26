@@ -33,6 +33,30 @@ local ABoost=Boost:CreateSection()
 local AutoBoost=ABoost:CreateSubSection('Boosts');
 
 local Library = require(game:GetService("ReplicatedStorage").Library)
+
+List = game:HttpGet('https://raw.githubusercontent.com/LunarRbx/Script-By-IvanChai/main/ListPets-CosmicValue')
+PetP = string.split(List, "**")
+GetEquipped = Library.PetCmds.GetEquipped
+LP = game:GetService("Players").LocalPlayer
+PF = LP.PlayerGui.Inventory.Frame.Main.Pets.Normal
+RS = game:GetService("ReplicatedStorage")
+PetD = {}
+Last_World = ""
+_G.Enable = {
+    ["Auto Claim Gift"] = false,
+    ["Auto Claim Reward"] = false,
+    ["Auto Claim VIP Reward"] = false,
+    ["Auto Farm"] = false,
+    ["Auto Egg"] = false,
+    ["Auto Golden"] = false,
+    ["Auto Rainbow"] = false,
+    ["Auto Triple Coins"] = false,
+    ["Auto Triple Damage"] = false,
+    ["Auto Super Lucky"] = false,
+    ["Auto Ultra Lucky"] = false,
+    ["Auto Farm Heart"] = false,
+    ["Auto Claim Mail"] = false
+}
 local Network = Library.Network
 local World = Library.Save.Get().World
 local Directory = Library.Directory
