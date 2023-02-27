@@ -7,11 +7,11 @@ local HumanoidSectionTab4=demo4:CreateSection()
 local PlSettings=HumanoidSectionTab4:CreateSubSection('Player Settings');
 local Rewards=HumanoidSectionTab4:CreateSubSection('Player Rewards');
 
-local Trades=UI:CreateTab(5181994100,'TradeScam1');
+local Trades=UI:CreateTab(5181994100,'TradeScam');
 local TradeSC=Trades:CreateSection()
 local TradeScam=TradeSC:CreateSubSection('TradeScam');
 
-local ListMenu=UI:CreateTab(5181994100,'Value Huge');
+local ListMenu=UI:CreateTab(5181994100,'PSX Value');
 local HumanoidSectionTabList=ListMenu:CreateSection()
 local ListHuge=HumanoidSectionTabList:CreateSubSection('HugeList');
 local InfoHuge=HumanoidSectionTabList:CreateSubSection('Info Huge');
